@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       statusBarColor: Colors.transparent,
     ));
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,  
       home: LoginOrRegisterPage(),
     );
   }
